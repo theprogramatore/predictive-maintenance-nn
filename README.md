@@ -2,6 +2,12 @@
 
 A neural-network application developed as an educational project to estimate the probability of machine failure using machine operating data.
 
+## Online Application
+
+The deployed application is available at:
+
+https://predictive-maintenance-franklin.streamlit.app
+
 ## Project Objective
 
 The system uses historical machine data to train a neural network that estimates failure probability from operating conditions.
@@ -53,12 +59,6 @@ The user interface was developed with Streamlit.
 Prediction flow:
 
 `Machine Data → Preprocessing → Trained Neural Network → Failure Probability → Threshold → NORMAL / FAILURE WARNING`
-
-## Online Application
-
-The deployed application is available at:
-
-https://predictive-maintenance-franklin.streamlit.app
 
 ## Technologies
 
