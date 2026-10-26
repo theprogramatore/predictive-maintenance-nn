@@ -1,0 +1,43 @@
+PREDICTIVE MAINTENANCE — STREAMLIT CLOUD
+
+GitHub repository suggested name:
+predictive-maintenance-nn
+
+1. Create a NEW GitHub repository. Do not overwrite the existing NLP Streamlit app.
+2. Upload ALL files and folders from this package.
+3. Open Streamlit Community Cloud.
+4. Create a new app.
+5. Select:
+   Repository: predictive-maintenance-nn
+   Branch: main
+   Entrypoint: app.py
+6. Open Advanced settings and choose Python 3.13.
+7. Deploy.
+
+Required structure:
+app.py
+requirements.txt
+configs/model_config.json
+models/predictive_maintenance_nn.keras
+models/preprocessor.joblib
+src/inference/predictor.py
+src/features/preprocess.py
+src/models/build_model.py
+
+Demo values:
+
+NORMAL
+Type: M
+Air Temperature: 298.1
+Process Temperature: 308.6
+Rotational Speed: 1551
+Torque: 42.8
+Tool Wear: 0
+
+FAILURE WARNING
+Type: L
+Air Temperature: 302.7
+Process Temperature: 310.5
+Rotational Speed: 1263
+Torque: 67.8
+Tool Wear: 197

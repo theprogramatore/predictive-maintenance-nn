@@ -1,0 +1,15 @@
+{
+    "threshold": 0.6,
+    "input_dimensions": 8,
+    "numeric_features": [
+        "Air temperature",
+        "Process temperature",
+        "Rotational speed",
+        "Torque",
+        "Tool wear"
+    ],
+    "categorical_features": [
+        "Type"
+    ],
+    "target": "Machine failure"
+}
